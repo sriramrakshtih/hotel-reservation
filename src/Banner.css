@@ -1,0 +1,46 @@
+/** @format */
+
+.banner {
+	height: 50vh;
+	position: relative;
+	background: url(https://mediad.publicbroadcasting.net/p/wunc/files/styles/x_large/public/201905/SanFrancisco_12623927_PrivateRoomApt_LivingRoom.jpg)
+		center center;
+}
+
+.banner__info {
+	background-color: black;
+	color: white;
+	padding-left: 50px;
+	padding-top: 25vh;
+	padding-right: 50px;
+	padding-bottom: 40px;
+	width: 300px;
+}
+
+.banner__info > button {
+	background-color: beige;
+	color: black;
+	text-transform: inherit;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.banner__info > h5 {
+	margin-top: 10px;
+}
+
+.banner__info > button:hover {
+	background: #ff7779;
+	color: white;
+}
+.banner__search {
+	display: flex;
+	flex-direction: column;
+}
+
+.banner__searchButton {
+	background-color: #ff7779 !important;
+	color: black !important;
+	font-weight: 900 !important;
+	text-transform: inherit !important;
+}
