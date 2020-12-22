@@ -5,8 +5,10 @@ import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import { Button } from '@material-ui/core';
 import GroupIcon from '@material-ui/icons/Group';
+import { useHistory } from 'react-router-dom';
 
 function Search() {
+    const history = useHistory();
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
 
@@ -34,7 +36,7 @@ function Search() {
                 defaultValue={2}
                 type="number" />
 
-                <Button>Search</Button>
+                <Button onClick={() => history.push('./search')}>Search</Button>
         </div>
         
     )

@@ -4,18 +4,19 @@ import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Avatar } from "@material-ui/core";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Header() {
+    
     return (
         <div className="header">
-            {/* <Link to='/'> */}
+            <Link to='/'>
                 <img
                     className="header__icon"
-                    src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png"
+                    src="https://i.pinimg.com/originals/d7/ac/67/d7ac67d50d2769dab9d81d27dfb28883.png"
                     alt=""
                 />
-            {/* </Link> */}
+            </Link>
 
             <div className="header__center">
                 <input type = "text" />
